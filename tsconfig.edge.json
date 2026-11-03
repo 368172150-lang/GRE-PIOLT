@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": [],
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": { "npm:@supabase/supabase-js@2": ["node_modules/@supabase/supabase-js"] }
+  },
+  "include": ["supabase/functions/**/*.ts"]
+}
